@@ -27,7 +27,7 @@ public class WikipediaAllureTest {
     @Test(description = "Search 'Selenium' on Wikipedia and verify results!")
     public void testWikipediaSearch() {
         openPage(System.getenv("URL"));
-        verifyPageTitle("Wikipedia");
+        verifyPageTitle("Wikipedia22");
         searchFor("Selenium");
         verifySearchResultsContain("Selenium");
     }
