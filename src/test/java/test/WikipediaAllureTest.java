@@ -24,7 +24,7 @@ public class WikipediaAllureTest {
         driver.manage().window().maximize();
     }
 
-    @Test(description = "Search 'Selenium' on Wikipedia and verify results")
+    @Test(description = "Search 'Selenium' on Wikipedia and verify results!")
     public void testWikipediaSearch() {
         openPage(System.getenv("URL"));
         verifyPageTitle("Wikipedia");
